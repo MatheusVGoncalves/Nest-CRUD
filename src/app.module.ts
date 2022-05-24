@@ -10,8 +10,8 @@ import { User } from './users/entities/user.entity';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'engprod123@',
-      database: "db_nest",
+      password: 'postgres',
+      database: "postgres",
       entities: [User],
       synchronize: true
     }),
